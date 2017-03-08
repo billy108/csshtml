@@ -1,0 +1,18 @@
+
+ul{
+	list-style: none;
+}
+header::after{
+	both: clear;
+	content:"";
+}
+header ul{
+	float: right;
+}
+header ul li{
+	float: left;
+}
+header span {
+	display: inline-block;
+	float: left;
+}
